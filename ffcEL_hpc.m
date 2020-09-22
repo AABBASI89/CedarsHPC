@@ -1,4 +1,11 @@
 function ffcEL_hpc(session,threads)
+% This function performs Field-Field Coherence (FFC) analysis using newcrossf 
+% function of EEGLAB. 
+% @AamirAbbasi
+% Input:
+%      - session: Path to sessions which you want to analyize
+%      - threads: Maximum number of threads you want to utilize per CPU core. 
+%% Start!
 
 if ~isempty(threads)
   maxNumCompThreads(threads);
