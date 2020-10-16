@@ -9,7 +9,7 @@ This repository is used for running the analysis on Cedars-Sinai's High-Performa
      - To view the status of your job type qstat. If your job is not running this command will not return any outputs.
      - To view the number of cores available on HPC type qstat -f.
      - To view the details of your job type qstat -f -j yourjobnumber like qstat -f -j 65200
-     - To view all the jobs running on the cluster type qstat -u \*
+     - To view all the jobs running on the cluster type qstat -u singleforwardslash*
      - To delete a job enter qdel -j yourjobnumber like qdel -j 65200
  - Once your job starts you can exit your MobaXterm session. HPC will send you an email when your job is over or if there is any error. 
  - The output of the matlab command line can be visualize by typing, 
