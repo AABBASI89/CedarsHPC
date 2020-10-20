@@ -2,9 +2,9 @@
 This repository is used for running the analysis on Cedars-Sinai's High-Performance Cluster (HPC). https://riscc.csmc.edu/riscc/?_ga=2.152737466.2077473701.1600715593-822416260.1581018866#link-hpc
 
 Submit Nodes:
-Csclprd3-s001v.csmc.edu
-csclprd3-s002v.csmc.edu
-csclprd3-s003v.csmc.edu
+- csclprd3-s001v.csmc.edu
+- csclprd3-s002v.csmc.edu
+- csclprd3-s003v.csmc.edu
 
 User Directories:
 /home/{your username} – Files specific to your account on a specific research HPC cluster or UNIX/Linux system
